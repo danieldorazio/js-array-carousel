@@ -16,9 +16,34 @@ Aggiungere il **ciclo infinito** del carosello. Ovvero se è attiva la prima imm
 Creare un arrey con all'interno [tutte le imagini]
 
 **Inserimento dinamico**
+
+**MILESTONE1**
 Ciclo for con condizione da soddisfare arrey.length {
     prelevare le singole immagini 
     associare una variabile globale al template literal 
 }
 
 Inserire la variabile al Dom 
+Inizializzare una variabile a 0 e usarla come indice dell'array
+Dare la classe active all'ellemeto dell'array presento all'indice 0 cosi da farsi mostrare 
+
+**MILESTONE2**
+richiamare la class(".prev) e assocciargli un evento al click
+- quando clicclo 
+    - se l'indice dell'immagine > 0 
+        - rimuovi la classe active all'elemento corrente 
+        - decrementa indice di 1 
+        - assegna classe active all'elemento corrente 
+
+
+richiamare la class(".next) e assocciargli un evento al click
+- quando clicclo 
+    - se l'indice dell'immagine < al numero degli elementi all'inetno dell'array -1 
+        - rimuovi la classe active all'elemento corrente 
+        - incrementa indice di 1 
+        - assegna classe active all'elemento corrente 
+
+
+
+
+
